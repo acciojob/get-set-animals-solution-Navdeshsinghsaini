@@ -24,6 +24,11 @@ class Dog extends Animal {
   }
 }
 
+  
+let x = Animal.makeSound
+console.log(x)
+console.log(Cat)
+console.log(Dog)
 // Do not change the code below this line
 window.Animal = Animal;
 window.Dog = Dog;
